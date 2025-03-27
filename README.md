@@ -37,5 +37,19 @@ This project fetches, stores and analyzes Youtube channel data using SQL and str
    streamlit run UI.py
 
 *Project Structure*
+📂 YouTube Data Harvesting
+│── youtube_database_setup.py   # Sets up the database
+│── youtube_data_harvesting.py  # Fetches and processes data, UI with Streamlit
+│── UI.py                       # Handles the Streamlit interface
+
+*How It Works*
+  1️. User enters a YouTube Channel ID
+  2️. System fetches channel details, playlists, and videos using the YouTube API
+  3️. Data is stored in MySQL for easy querying
+  4️. Predefined SQL queries extract insights from the stored data
+  5️. Streamlit UI displays the results in an interactive format
+
+Created by
+Sanjay @sanjaymech919@gmail.com
 
    
