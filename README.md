@@ -1,4 +1,4 @@
-**Youtube Data Harvesting & Warehousing**
+**Youtube Data Harvesting & Warehousing using SQL and Streamlit**
 
 *Overview*
 
@@ -22,3 +22,20 @@ This project fetches, stores and analyzes Youtube channel data using SQL and str
  3. Interactive UI - Built using streamlit for an easy-to-use experience
 
 *Installation & Setup*
+
+ 1. Need to install the below mentioned python libraries.
+    import mysql.connector
+    import googleapiclient.discovery
+    import pandas
+    import datetime
+    import isodate
+    import streamlit
+
+2. How to run the files
+   In the VS code terminal, type the following commands
+   Step 1: python youtube_database_setup.py
+   streamlit run UI.py
+
+*Project Structure*
+
+   
