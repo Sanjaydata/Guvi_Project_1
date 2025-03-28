@@ -56,6 +56,6 @@ This project fetches, stores and analyzes Youtube channel data using SQL and str
  5. Streamlit UI displays the results in an interactive format
 
 Created by
-Sanjay @sanjaymech919@gmail.com
+Sanjay
 
    
