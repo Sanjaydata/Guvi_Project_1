@@ -5,7 +5,7 @@ import isodate
 
 # Initialization Block
 # Initialize YouTube API
-API_KEY = "AIzaSyDtTV-Zwa6UJRX2Smyd7nqy-rsLXJCLZeQ"
+API_KEY = "your api key"
 youtube = build("youtube", "v3", developerKey=API_KEY)
 
 # Initialize MySQL Connection
@@ -13,8 +13,8 @@ def get_db_connection():
     try:
         conn = mysql.connector.connect(
             host="localhost",
-            user="Sanjay_DS",
-            password="Xy9@dF!73pQz",
+            user="u",
+            password=p,
             database="youtube_data"
         )
         return conn
