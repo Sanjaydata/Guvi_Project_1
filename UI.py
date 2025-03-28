@@ -54,8 +54,8 @@ elif menu == "📊 Data Clarity":
     def get_db_connection():
         return mysql.connector.connect(
             host="localhost",
-            user="Sanjay_DS",
-            password="Xy9@dF!73pQz",
+            user="u",
+            password="p",
             database="youtube_data"
         )
 
